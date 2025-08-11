@@ -2,7 +2,7 @@ import { View, Text, Button } from 'react-native';
 import React, { useState } from 'react';
 
 const UseStateHook = () => {
-  const [name, setName] = useState('radha');
+  const [name, setName] = useState('mohan');
   console.log(name);
   const changeName = () => {
     console.log(name);

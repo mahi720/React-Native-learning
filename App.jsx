@@ -1,6 +1,10 @@
 import { View, Text, Button } from 'react-native';
 import React from 'react';
 import UseStateHook from './src/components/UseStateHook';
+import Props from './src/components/Props';
+import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
+import FlateListScreen from './src/components/FlateListScreen';
 // import First from './src/components/First';
 // import OnPress from './src/components/OnPress';
 
@@ -12,7 +16,11 @@ const App = () => {
       {/* <Button title="Press Me1" /> */}
       {/* <First /> */}
       {/* <OnPress/> */}
-      <UseStateHook />
+      {/* <UseStateHook /> */}
+      {/* {<Props/>} */}
+      {/* {<InputText />} */}
+      {/* {<Styling />} */}
+      {<FlateListScreen />}
     </View>
   );
 };
