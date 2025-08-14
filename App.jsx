@@ -8,12 +8,18 @@ import FlateListScreen from './src/components/FlateListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
 import LoginForm from './src/components/LoginForm';
 import RegisterForm from './src/components/RegisterForm';
+import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import Grid from './src/components/Grid';
+import ClassComponents from './src/components/ClassComponent';
+import SecondClassComponent from './src/components/SecondClassComponent';
+import UseEffect from './src/components/UseEffectMountingPhase';
+import UseEffectUpdatingPhase from './src/components/UseEffectUpdatingPhase';
 // import First from './src/components/First';
 // import OnPress from './src/components/OnPress';
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex: 1}}>
       {/* <Text style={{ fontSize: 39 }}>App</Text>
       <Text style={{ fontSize: 30 }}>App21</Text> */}
       {/* <Button title="Press Me1" /> */}
@@ -26,7 +32,13 @@ const App = () => {
       {/* {<FlateListScreen />} */}
       {/* {<SectionListScreen />} */}
       {/* {<LoginForm />} */}
-      {<RegisterForm />}
+      {/* {<RegisterForm />} */}
+      {/* {<ContactListScreen />} */}
+      {/* {<Grid />} */}
+      {/* {<ClassComponents />} */}
+      {/* {<SecondClassComponent />} */}
+      {/* {<UseEffect />} */}
+      {<UseEffectUpdatingPhase />}
     </View>
   );
 };
