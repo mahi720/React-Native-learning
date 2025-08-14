@@ -5,6 +5,9 @@ import Props from './src/components/Props';
 import InputText from './src/components/InputText';
 import Styling from './src/components/Styling';
 import FlateListScreen from './src/components/FlateListScreen';
+import SectionListScreen from './src/components/SectionListScreen';
+import LoginForm from './src/components/LoginForm';
+import RegisterForm from './src/components/RegisterForm';
 // import First from './src/components/First';
 // import OnPress from './src/components/OnPress';
 
@@ -20,7 +23,10 @@ const App = () => {
       {/* {<Props/>} */}
       {/* {<InputText />} */}
       {/* {<Styling />} */}
-      {<FlateListScreen />}
+      {/* {<FlateListScreen />} */}
+      {/* {<SectionListScreen />} */}
+      {/* {<LoginForm />} */}
+      {<RegisterForm />}
     </View>
   );
 };
