@@ -22,12 +22,19 @@ import PressableComponentButton from './src/components/PressableComponentButton'
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
+import AlertExample from './src/components/AlertExample';
+import GET_API from './src/components/GET_API';
+import POST_API from './src/components/POST_API';
+import PUT_API from './src/components/PUT_API';
+import PATCH_API from './src/components/PATCH_API';
+import DELETE_API from './src/components/DELETE_API';
+import GET_API_LIST from './src/components/GET_API_LIST';
 // import First from './src/components/First';
 // import OnPress from './src/components/OnPress';
 
 const App = () => {
   return (
-    <View style={{flex: 1}}>
+    <View style={{ flex: 1 }}>
       {/* <Text style={{ fontSize: 39 }}>App</Text>
       <Text style={{ fontSize: 30 }}>App21</Text> */}
       {/* <Button title="Press Me1" /> */}
@@ -54,7 +61,14 @@ const App = () => {
       {/* {<PressableComponentButton />} */}
       {/* {<StatusBarExample />} */}
       {/* {<UseRefHook/>} */}
-      {<ModalDialogBox />}
+      {/* {<ModalDialogBox />} */}
+      {/* {<AlertExample />} */}
+      {/* {<GET_API />} */}
+      {/* {<POST_API />} */}
+      {/* {<PUT_API />} */}
+      {/* {<PATCH_API />} */}
+      {/* {<DELETE_API />} */}
+      <GET_API_LIST />
     </View>
   );
 };
